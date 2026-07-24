@@ -1,8 +1,15 @@
 aid: bloom-energy
 name: Bloom Energy
-description: 'Bloom Energy is a company surfaced as a portfolio company of kleiner-perkins and added to
-  the API Evangelist network as a stub for enrichment. Sector: hardtech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Bloom Energy Corporation (NYSE: BE) is a San Jose, California hardtech
+  company that designs and manufactures solid-oxide fuel cell "Energy Server" platforms
+  which generate electricity on-site from natural gas, biogas, or hydrogen through
+  an electrochemical process rather than combustion. Its modular systems deliver resilient,
+  always-on power for data centers, manufacturing, healthcare, utilities, and critical
+  infrastructure, can be deployed in roughly 90 days, and scale from single units to
+  hundreds of megawatts. Bloom also builds high-temperature solid-oxide electrolyzers
+  for low-cost hydrogen production. The company is tracked in the API Evangelist network
+  as a hardtech portfolio company; it publishes no public developer API surface at
+  this time.'
 url: https://raw.githubusercontent.com/api-evangelist/bloom-energy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +17,30 @@ x-backed-by:
 - kleiner-perkins
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.bloomenergy.com/wp-content/uploads/white-Logo.svg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Hardtech
+- Energy
+- Fuel Cells
+- Clean Energy
+- Hydrogen
+- Data Center Power
+- Electrolyzer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,22 @@ maintainers:
 common:
 - type: Website
   url: https://www.bloomenergy.com
+- type: Blog
+  url: https://www.bloomenergy.com/blog/
+- type: Newsroom
+  url: https://www.bloomenergy.com/newsroom/
+- type: Support
+  url: https://www.bloomenergy.com/contact/
+- type: PrivacyPolicy
+  url: https://www.bloomenergy.com/privacy-policy
+- type: TermsOfService
+  url: https://www.bloomenergy.com/legal/
+- type: InvestorRelations
+  url: https://investor.bloomenergy.com/overview/default.aspx
+- type: DomainSecurity
+  url: security/bloom-energy-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
