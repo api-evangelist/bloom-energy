@@ -1,0 +1,25 @@
+# Front Door AI Index — bloom-energy — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: bloom-energy
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.bloomenergy.com
+  final_host: www.bloomenergy.com
+  ownership: own
+  owner: bloom-energy
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 14
+  host_score: 14
+  density: 8.54
+  words: 1639
+  tiers:
+    agentic: 0
+    core: 14
+    model: 0
+  ambiguous: 0
+  top_terms:
+    AI: 14
